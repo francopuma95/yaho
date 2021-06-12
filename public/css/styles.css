@@ -1,0 +1,98 @@
+header {background: #EAC926;
+
+}
+.create-form{
+    padding:20x 15px;
+}
+.control-formulario{
+    margin-bottom: 15px;
+
+}
+.nav
+
+
+
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style:italic;
+    display:block;
+}
+.control{
+    width:100%;
+    padding:8px;
+}
+ #nav {
+    width:100%;
+    height:40px;
+    background-color:#EAC926;
+    color:black;
+    font-family:sans-serif,helvetica, Arial;
+    font-size:14px;
+    box-shadow:0px 0px 2px }
+
+    #nav ul{
+        list-style:none;
+        text-decoration:none;
+        margin:0px auto;
+        width:1190px;
+    
+
+    }
+    #nav>ul>li{
+        line-height:40px;
+        float:left;
+        border-right:1px solid white
+    }
+#nav>ul>li a{
+    display:white;
+    text-decoration:none;
+    padding-left:20px;
+    padding-right:20px;
+    color:yellow
+}
+#nav>ul>li>a:first-child{
+    border-left:1px solid gray
+}
+#nav>ul>li:hover{
+    background-color:green;
+    box-shadow:0px 0px 4px green inset;
+
+}
+
+
+
+.buscar {
+    font-size:60px;
+    font-weight:bold;
+    margin:1em 0;
+  
+}
+.buscar{
+    color:white;
+    text-decoration:none;
+    padding:4px 80px;
+    border-radius:30px;
+    font-size:30px;
+    margin:10px;
+}
+
+#texto{font-size: 12px;}
+#titulo{font-size: 24px;}
+.precio{font-size: 18px;}
+.descripcion{font-size:16px}
+
+.abajo{
+    text-align: center;
+    
+}
+.partedeabajo{
+    background-color:#ebebeb;;
+}
+
+@media only screen and (max-width:600px){
+    #parrafo{
+        font-size: 50;
+    }
+}
+
+

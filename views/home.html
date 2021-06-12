@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="menu">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadoliebre</title>
+<link rel="stylesheet" href="css/styles.css"></link>     
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+</head>
+<body> 
+   
+    <header>
+        <div>
+         <img src="/images/logo-mercado-liebre.svg" width="300px" height="200px"  alt="">
+        </div>
+    <div class="buscar">
+        <input type="text" placeholder="buscar productos, marcas" required>
+        <i class="fa fa-search"></i>
+        <nav id="nav">
+
+            <ul>
+                <li><a href="">Ofertas</a> </a></li>
+                <li><a href="">Tiendas Oficiales</a></a></li>
+                <li><a href="">Vender</a></a></li>
+                <li><a href="">Ayuda</a></a></li>
+                <li><a href="">Crea tu cuenta</a></a></li> 
+                <i class="far fa-address-card"></i>
+                <li><a href="">Ingresa</a></a></li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                <li><a href="">Mis compras</a></a></li>
+                <i class="fas fa-shopping-basket"></i>
+                <li><button class= 'loginbtn'
+                 onclick="document.getElementById
+                ('login-form').style.display='block'"
+                     style="width:auto;"> login </button></li>
+               
+    </nav>
+    </div>
+    <nav>
+    <main class="login_main">
+        <div class="login">
+            <form action="login.html" method="POST">
+                <input placeholder="Nombre y apellido" type="text"/>
+                <input placeholder="Elegi tu contraseña" type="password"/>
+            </form>
+            <div>
+               
+           
+       <form action="/crear-producto" method="POST">
+        <div class="control-formulario">
+            <label>Nombre del usuario:  </label>
+            <input type="text" name="nombre">
+        </div>
+        <div class="control-formulario">
+            <label>Fecha de nacimiento:  </label>
+            <input type="text" name="precio">
+        </div>
+        <div class="control-formulario">
+            <label>Domicilio:  </label>
+            <input type="text" name="nombre">
+        </div>
+        <div class="control-formulario">
+            <label>Perfil del usuario:  </label>
+            <input type="text" name="nombre">
+        </div>
+        <div class="control-formulario">
+            <label>Categoria</label>
+            <select name="categoria">
+                <option value="">Hogar</option>
+                <option value="">Electro</option>
+                <option value="">Moda</option>
+                <option value="">Jugueteria</option>
+                <option value="">Vida sana</option>
+                <option value="">Indumentaria</option>
+
+            </select>
+        </div>
+        
+
+      
+        <div class="control-formulario">
+            <label>Foto de usuario:</label>
+            <textarea name="descripcion del producto"></textarea>
+        </div>
+        <div class="control-formulario">
+            <label>contraseña:</label>
+            <textarea name="contraseña" type="password"></textarea>
+        </div>
+        <input placeholder="Confirma tu contraseña" type="password"/>
+
+        <button type="submit">Guardar</button>
+        <button type="reset">Borrar</button>
+        <p>no tienes cuenta?<a class="link" href="home.html">Registrate</a></p>
+       </form>
+    </nav>
+
+    </main>
+     
+ 
+
+
+        <p>Comprá en cuotas y sin tarjeta de crédito</p> <i class="fas fa-hand-holding-usd"></i>
+
+
+
+                 <div class="burger-menu">
+                    <i class="fas fa-bars"></i>
+                    </div>
+                 <footer>
+        </ul>
+    </div> 
+        <img src="/images/img-home-banner.jpg" width="1350px" height=300px" alt="">
+        <p>Seccion:Basado en tu ultima visita</p>
+  <main class="abajo"> 
+<section>
+        <img src="/images/img-cafetera-moulinex.jpg" alt="">
+        <h1> $6.770</h1>
+        <h2>40% off</h2>
+        <h1 id="titulo">Cafetera Moulinex</h1>
+    </section>
+    <section>
+        <img src="/images/img-macbook-pro-2019.jpg" alt="">
+        <h3 class="precio">$230.000</h3>
+        <h2>20% off</h2>
+        <h1 id="titulo">MacBook Pro 2019</h1>
+    </section>
+    <section>
+        <img src="/images/img-samsung-galaxy-s10.jpg" alt="">
+        <h3 class="precio">$70.500</h3>
+        <h2>10% off</h2>
+        <h1 id="titulo">Samsung Galaxy S10</h1>
+    </section>
+    <section>
+        <img src="/images/img-tv-samsung-smart.jpg" alt="">
+        <h3 class="precio">$23.200</h3>
+        <h2>5% off</h2>
+        <h1 id="titulo">SmartTvSamsung 43"</h1>
+    </section>
+</main>
+
+   <div class="partedeabajo">
+    <div class="container-body">
+
+        <div id="header" class= "colum1">
+
+   
+           
+            
+            <section class="abajo">
+       <div class="descripcion">
+        <i class="fas fa-credit-card fa-5x"></i>
+        <h1 class="abajo">Paga con tarjeta o en efectivo</h1>
+    <p class="abajo">Con mercadolibreCash tenes cuotas sin interes con tarjeta o efectivo en puntos de pago !Ysiempre es seguro¡</p>
+</section>
+<section class="abajo">
+
+    <i class="fas fa-box-open fa-5x"></i>
+     <h1 >Envio gratis desde los $2.500</h1>
+    <p >Solo por estar registrado en Mercado Liebre tenes envios gratis en miles de productos. Es un beneficio de Mercado Puntos</p>
+
+</section>
+<section class="abajo">
+    
+    <i  class="fas fa-user fa-5x"></i>
+    <h1 >Seguridad de principio a fin</h1>
+    <p >No te gusta?!Devolvelo¡ En Mercadoliebre no hay nada que no puedas hacer por que estas siempre protegid@</p>
+    <p >Copyright 1999-2020 Mercadoliebre S.R.L.</p>
+</section>
+</div>
+</footer>
+
+
+
+    </header>
+    
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
